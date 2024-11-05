@@ -29,6 +29,7 @@ android {
 
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -39,7 +40,8 @@ android {
     }
 
     lintOptions {
-        disable 'all' // 关闭所有的Lint检查
+        abortOnError false
+        ignoreWarnings true
     }
 }
 
