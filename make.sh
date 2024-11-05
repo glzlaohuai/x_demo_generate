@@ -51,7 +51,7 @@ sed -i.bak "s/__appid__/$appid/g" app/src/main/java/com/appicplay/helloworld/Mai
 echo "Updating MainActivity.java with new SDK package name..."
 sed -i.bak "s/com.ap.android.trunk/$sdk_package_name/g" app/src/main/java/com/appicplay/helloworld/MainActivity.java
 # 删除备份文件
-rm *.bak
+find . -name "*\.bak" -type f -delete
 
 # 执行gradlew assembleRelease
 echo "Building the project..."
