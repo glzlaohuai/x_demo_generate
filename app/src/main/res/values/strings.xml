@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">APAdDemo-github</string>
+    <string name="title_general_info">参数：</string>
+    <string name="info" translatable="false">SDK Version：%s \nOAID : %s\nGAID：%s</string>
+</resources>

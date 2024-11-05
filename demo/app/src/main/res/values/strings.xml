@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">APAdDemo</string>
+    <string name="btn_native_ad">原生广告</string>
+    <string name="btn_interstitial_ad">插屏广告</string>
+    <string name="btn_banner_ad">横幅广告</string>
+    <string name="btn_splash_ad">开屏广告</string>
+    <string name="btn_reward_video_ad">激励视频广告</string>
+    <string name="title_general_info">参数：</string>
+    <string name="btn_load_and_show">加载并展示</string>
+    <string name="cb_bottom_custom_view">是否使用自定义底部视图</string>
+    <string name="cb_custom_skip_view">是否使用自定义跳过按钮</string>
+    <string name="cb_separation_interface">是否使用加载与展示分离接口</string>
+    <string name="btn_skip">跳过：%d</string>
+
+    <string name="app_id" translatable="false">172726fc-9ad7-4dc8-b055-283dc97071c0</string>
+    <string name="splash_slot_id" translatable="false">1709792404675769</string>
+    <string name="interstitial_slot_id" translatable="false">1709480504064834</string>
+    <string name="banner_slot_id" translatable="false">1709646053009094</string>
+    <string name="native_slot_id" translatable="false">1709366105150685</string>
+    <string name="reward_video_slot_id" translatable="false">1709423116360670</string>
+    <string name="btn_load">加载</string>
+    <string name="btn_show">展示</string>
+    <string name="banner_refresh_title">设置刷新时间（秒）：</string>
+    <string name="banner_size_title">期望广告View的大小（dp）：</string>
+    <string name="info" translatable="false">SDK Version：%s \nOAID : %s\nGAID：%s</string>
+    <string name="banner_styleselect_title">样式选择：</string>
+</resources>

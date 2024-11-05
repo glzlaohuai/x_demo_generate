@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">APAdDemo</string>
+    <string name="btn_splash_ad">Splash ad</string>
+    <string name="btn_native_ad">Native ad</string>
+    <string name="btn_interstitial_ad">Interstitial ad</string>
+    <string name="btn_banner_ad">Banner ad</string>
+    <string name="btn_reward_video_ad">rewarded video ad</string>
+    <string name="title_general_info">Parameters:</string>
+    <string name="btn_load_and_show">Load and show</string>
+    <string name="cb_bottom_custom_view">Use custom bottom view</string>
+    <string name="cb_custom_skip_view">Use custom skip button</string>
+    <string name="cb_separation_interface">Whether to use the loading and display separation interface</string>
+    <string name="btn_skip">skip: %d</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_show">Show</string>
+    <string name="banner_refresh_title">Set refresh time (seconds):</string>
+    <string name="banner_size_title">Size of ad View (dp):</string>
+    <string name="banner_styleselect_title">Style Select:</string>
+</resources>
