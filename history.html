@@ -5,15 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Submit History</title>
   <link rel="stylesheet" href="styles.css">
+  <script type="module" src="scripts.js"></script>
+
 </head>
 <body>
+
 <div class="container">
   <h2>Submit History</h2>
-  <ul id="historyList" class="history-list">
-    <!-- 提交历史将在这里显示 -->
-  </ul>
-  <button onclick="goToConfig()">返回配置</button>
+
+  <div class="history-container">
+    <ul id="historyList" class="history-list">
+      <!-- 提交历史将在这里显示 -->
+    </ul>
+  </div>
+  <button id="backToConfigButton" onclick="goToConfig()" class="button">返回配置</button>
+
 </div>
-<script src="scripts.js"></script>
+
+
 </body>
 </html>
