@@ -28,12 +28,14 @@ jobs:
 
     - name: Run make script
       env:
-        URL: ${{ github.event.client_payload.url }}
-        APP_ID: ${{ github.event.client_payload.app_id }}
-        APK_PACKAGE_NAME: ${{ github.event.client_payload.apk_package_name }}
-        SDK_PACKAGE_NAME: ${{ github.event.client_payload.sdk_package_name }}
+        URL: ${{ github.event.client_payload.sdkUrl }}
+        APP_ID: ${{ github.event.client_payload.appId }}
+        APK_PACKAGE_NAME: ${{ github.event.client_payload.apkPackageName }}
+        SDK_PACKAGE_NAME: ${{ github.event.client_payload.sdkPackageName }}
+        RUN_ID: ${{ github.event.client_payload.uuid }}
       run: |
         echo "Running make.sh script with parameters..."
+        echo "ID: $RUN_ID"
         ./make.sh "$URL" "$APP_ID" "$APK_PACKAGE_NAME" "$SDK_PACKAGE_NAME"
         
     - name: Upload build artifacts
