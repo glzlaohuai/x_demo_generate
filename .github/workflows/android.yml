@@ -35,7 +35,7 @@ jobs:
         RUN_ID: ${{ github.event.client_payload.uuid }}
       run: |
         echo "Running make.sh script with parameters..."
-        echo "ID: $RUN_ID"
+        echo "IDFromFront: $RUN_ID"
         ./make.sh "$URL" "$APP_ID" "$APK_PACKAGE_NAME" "$SDK_PACKAGE_NAME"
         
     - name: Upload build artifacts
